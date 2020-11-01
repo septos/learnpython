@@ -1,0 +1,6 @@
+const int relay[2] = {16,5};  // // rubah angka [2] untuk jika ingin menggunakan >2 relay dan masukan pin gpio nodemcu
+
+String perintahnyala[2] = {"relay 1 nyala","relay 2 nyala"};  // rubah angka [2] untuk jika ingin menggunakan >2 relay
+String perintahmati[2] = {"relay 1 mati","relay 2 mati"}; // rubah angka [2] untuk jika ingin menggunakan >2 relay
+
+// rubah for(int i=0; i<=1  ( angka 1 ganti dengan jumlah pin gpio dimulai dari index 0) ; i++)
