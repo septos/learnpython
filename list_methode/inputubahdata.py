@@ -14,7 +14,6 @@ item = ['Lemari','Balok Besi','Lem Kayu','Mesin Bubut']
 
 menu = input("Masukan pilihan menu ? ")
 
-
 if menu == '1':
     print(item)
 elif menu == '2':
